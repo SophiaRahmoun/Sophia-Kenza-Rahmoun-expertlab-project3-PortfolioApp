@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8401CAB22EECA13300DD0A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8401CA922EECA13000DD0A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8401CA992EECA13000DD0A9D;
+			remoteInfo = Portfolio_sophia;
+		};
+		8401CABC2EECA13400DD0A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8401CA922EECA13000DD0A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8401CA992EECA13000DD0A9D;
+			remoteInfo = Portfolio_sophia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8401CA9A2EECA13000DD0A9D /* Portfolio_sophia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio_sophia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8401CAB12EECA13300DD0A9D /* Portfolio_sophiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portfolio_sophiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8401CABB2EECA13400DD0A9D /* Portfolio_sophiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portfolio_sophiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8401CAC32EECA13400DD0A9D /* Exceptions for "Portfolio_sophia" folder in "Portfolio_sophia" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8401CA992EECA13000DD0A9D /* Portfolio_sophia */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8401CA9C2EECA13000DD0A9D /* Portfolio_sophia */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8401CAC32EECA13400DD0A9D /* Exceptions for "Portfolio_sophia" folder in "Portfolio_sophia" target */,
+			);
+			path = Portfolio_sophia;
+			sourceTree = "<group>";
+		};
+		8401CAB42EECA13300DD0A9D /* Portfolio_sophiaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Portfolio_sophiaTests;
+			sourceTree = "<group>";
+		};
+		8401CABE2EECA13400DD0A9D /* Portfolio_sophiaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Portfolio_sophiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8401CA972EECA13000DD0A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401CAAE2EECA13300DD0A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401CAB82EECA13400DD0A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8401CA912EECA13000DD0A9D = {
+			isa = PBXGroup;
+			children = (
+				8401CA9C2EECA13000DD0A9D /* Portfolio_sophia */,
+				8401CAB42EECA13300DD0A9D /* Portfolio_sophiaTests */,
+				8401CABE2EECA13400DD0A9D /* Portfolio_sophiaUITests */,
+				8401CA9B2EECA13000DD0A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8401CA9B2EECA13000DD0A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8401CA9A2EECA13000DD0A9D /* Portfolio_sophia.app */,
+				8401CAB12EECA13300DD0A9D /* Portfolio_sophiaTests.xctest */,
+				8401CABB2EECA13400DD0A9D /* Portfolio_sophiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8401CA992EECA13000DD0A9D /* Portfolio_sophia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8401CAC42EECA13400DD0A9D /* Build configuration list for PBXNativeTarget "Portfolio_sophia" */;
+			buildPhases = (
+				8401CA962EECA13000DD0A9D /* Sources */,
+				8401CA972EECA13000DD0A9D /* Frameworks */,
+				8401CA982EECA13000DD0A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8401CA9C2EECA13000DD0A9D /* Portfolio_sophia */,
+			);
+			name = Portfolio_sophia;
+			packageProductDependencies = (
+			);
+			productName = Portfolio_sophia;
+			productReference = 8401CA9A2EECA13000DD0A9D /* Portfolio_sophia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8401CAB02EECA13300DD0A9D /* Portfolio_sophiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8401CAC92EECA13400DD0A9D /* Build configuration list for PBXNativeTarget "Portfolio_sophiaTests" */;
+			buildPhases = (
+				8401CAAD2EECA13300DD0A9D /* Sources */,
+				8401CAAE2EECA13300DD0A9D /* Frameworks */,
+				8401CAAF2EECA13300DD0A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8401CAB32EECA13300DD0A9D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8401CAB42EECA13300DD0A9D /* Portfolio_sophiaTests */,
+			);
+			name = Portfolio_sophiaTests;
+			packageProductDependencies = (
+			);
+			productName = Portfolio_sophiaTests;
+			productReference = 8401CAB12EECA13300DD0A9D /* Portfolio_sophiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8401CABA2EECA13400DD0A9D /* Portfolio_sophiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8401CACC2EECA13400DD0A9D /* Build configuration list for PBXNativeTarget "Portfolio_sophiaUITests" */;
+			buildPhases = (
+				8401CAB72EECA13400DD0A9D /* Sources */,
+				8401CAB82EECA13400DD0A9D /* Frameworks */,
+				8401CAB92EECA13400DD0A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8401CABD2EECA13400DD0A9D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8401CABE2EECA13400DD0A9D /* Portfolio_sophiaUITests */,
+			);
+			name = Portfolio_sophiaUITests;
+			packageProductDependencies = (
+			);
+			productName = Portfolio_sophiaUITests;
+			productReference = 8401CABB2EECA13400DD0A9D /* Portfolio_sophiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8401CA922EECA13000DD0A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8401CA992EECA13000DD0A9D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8401CAB02EECA13300DD0A9D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8401CA992EECA13000DD0A9D;
+					};
+					8401CABA2EECA13400DD0A9D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8401CA992EECA13000DD0A9D;
+					};
+				};
+			};
+			buildConfigurationList = 8401CA952EECA13000DD0A9D /* Build configuration list for PBXProject "Portfolio_sophia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8401CA912EECA13000DD0A9D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8401CA9B2EECA13000DD0A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8401CA992EECA13000DD0A9D /* Portfolio_sophia */,
+				8401CAB02EECA13300DD0A9D /* Portfolio_sophiaTests */,
+				8401CABA2EECA13400DD0A9D /* Portfolio_sophiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8401CA982EECA13000DD0A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401CAAF2EECA13300DD0A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401CAB92EECA13400DD0A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8401CA962EECA13000DD0A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401CAAD2EECA13300DD0A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8401CAB72EECA13400DD0A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8401CAB32EECA13300DD0A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8401CA992EECA13000DD0A9D /* Portfolio_sophia */;
+			targetProxy = 8401CAB22EECA13300DD0A9D /* PBXContainerItemProxy */;
+		};
+		8401CABD2EECA13400DD0A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8401CA992EECA13000DD0A9D /* Portfolio_sophia */;
+			targetProxy = 8401CABC2EECA13400DD0A9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8401CAC52EECA13400DD0A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portfolio_sophia/Portfolio_sophia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portfolio_sophia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portfolio_sophia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8401CAC62EECA13400DD0A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portfolio_sophia/Portfolio_sophia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portfolio_sophia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portfolio_sophia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8401CAC72EECA13400DD0A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8401CAC82EECA13400DD0A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8401CACA2EECA13400DD0A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portfolio_sophia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portfolio_sophia";
+			};
+			name = Debug;
+		};
+		8401CACB2EECA13400DD0A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portfolio_sophia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portfolio_sophia";
+			};
+			name = Release;
+		};
+		8401CACD2EECA13400DD0A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Portfolio_sophia;
+			};
+			name = Debug;
+		};
+		8401CACE2EECA13400DD0A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Portfolio_sophia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8401CA952EECA13000DD0A9D /* Build configuration list for PBXProject "Portfolio_sophia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8401CAC72EECA13400DD0A9D /* Debug */,
+				8401CAC82EECA13400DD0A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8401CAC42EECA13400DD0A9D /* Build configuration list for PBXNativeTarget "Portfolio_sophia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8401CAC52EECA13400DD0A9D /* Debug */,
+				8401CAC62EECA13400DD0A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8401CAC92EECA13400DD0A9D /* Build configuration list for PBXNativeTarget "Portfolio_sophiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8401CACA2EECA13400DD0A9D /* Debug */,
+				8401CACB2EECA13400DD0A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8401CACC2EECA13400DD0A9D /* Build configuration list for PBXNativeTarget "Portfolio_sophiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8401CACD2EECA13400DD0A9D /* Debug */,
+				8401CACE2EECA13400DD0A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8401CA922EECA13000DD0A9D /* Project object */;
+}

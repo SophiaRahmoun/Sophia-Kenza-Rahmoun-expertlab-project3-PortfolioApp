@@ -22,7 +22,7 @@ struct ProjectCardPlaceholderView: View {
                 )
         }
         .aspectRatio(phoneRatio, contentMode: .fit)
-        .frame(maxWidth: 260) // largeur visuelle carte
+        .frame(maxWidth: 260) // width carte
         .shadow(radius: 12, y: 8)
     }
 }

@@ -13,14 +13,24 @@ struct PortfolioHeaderView: View {
         VStack(spacing: 8) {
 
             Text("SoSo")
-                .font(AppFont.h1())
-                .frame(maxWidth: .infinity, alignment: .leading)
+                .font(AppFont.h1(172))
+                .multilineTextAlignment(.center)
+                .foregroundColor(Color(hex: "#9F1C30"))
+
+
+                .fadeIn(delay: 0.09)
+
 
             Text("Portfolio")
-                .font(AppFont.h2())
-                .frame(maxWidth: .infinity, alignment: .leading)
+                .font(AppFont.h3(52))
+                .frame(maxWidth: .infinity)
+                .multilineTextAlignment(.center)
+                .foregroundColor(Color(hex: "#f6f7f5"))
+
+
+                .fadeIn(delay: 1.02)
         }
-        .padding(.horizontal, 24)
+        .padding(.bottom, 1)
     }
 }
 

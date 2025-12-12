@@ -11,7 +11,7 @@ enum AppFont {
 
 
     static func h1(_ size: CGFloat = 48) -> Font {
-        .custom("Subway NewYork Std", size: size)
+        .custom("SubwayNewYorkOT", size: size)
     }
 
     static func h2(_ size: CGFloat = 32) -> Font {
@@ -19,16 +19,16 @@ enum AppFont {
     }
 
     static func h3(_ size: CGFloat = 22) -> Font {
-        .custom("Subway Berlin Std", size: size)
+        .custom("SubwayBerlinOT", size: size)
     }
 
 
     static func body(_ size: CGFloat = 16) -> Font {
-        .custom("D-DIN", size: size)
+        .custom("D-DIN-Bold", size: size)
     }
 
     static func bodyBold(_ size: CGFloat = 16) -> Font {
-        .custom("D-DIN", size: size)
+        .custom("D-DIN-Bold", size: size)
         .weight(.bold)
     }
 }

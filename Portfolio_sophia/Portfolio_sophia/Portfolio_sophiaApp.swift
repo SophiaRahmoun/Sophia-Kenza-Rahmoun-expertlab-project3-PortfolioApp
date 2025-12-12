@@ -11,10 +11,14 @@ import SwiftUI
 struct Portfolio_sophiaApp: App {
     let persistenceController = PersistenceController.shared
 
+    init() {
+          FontLoader.registerFonts()
+      }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            PortfolioOnePagerView()
+
         }
     }
 }

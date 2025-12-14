@@ -8,6 +8,18 @@
 import SwiftUI
 
 struct PortfolioOnePagerView: View {
+    private var projectBackgroundImage: String {
+        switch currentProject?.id {
+        case 1:
+            return "asset-background-white-to-black-gradient"
+        case 2:
+            return "asset-background-black-white-gradient"
+        case 3:
+            return "asset-background-black-white-red-gradient"
+        default:
+            return ""
+        }
+    }
     private let projects: [Project] = ProjectLoader.load()
     
     var currentProject: Project? {
@@ -39,11 +51,11 @@ struct PortfolioOnePagerView: View {
                     )
                     .zIndex(1)
                     .padding(.top, 65)
-
+                    
                     
                 }
                 .frame(maxWidth: .infinity)
-                .padding(.bottom, -220)
+                .padding(.bottom, -20)
                 
                 
                 .overlay(alignment: .topTrailing) {
@@ -57,43 +69,51 @@ struct PortfolioOnePagerView: View {
                 }
                 
                 if let project = currentProject {
-                    VStack {
-                        ProjectTitleBarView(project: project)
+                    ZStack {
+                        // 🎨 Background dynamique par projet
+                        Image(projectBackgroundImage)
+                            .resizable()
+                            .scaledToFill()
+                            .ignoresSafeArea(edges: .bottom)
                         
-                        ProcessTitleView()
-                            .zIndex(2)
-
-                        ProcessTextCardView(
-                            text: project.processText,
-                            backgroundColor: Color(
-                                hex: project.processStyle?.backgroundColor ?? "#F2F2F2"
-                            ),
-                            textColor: Color(
-                                hex: project.processStyle?.textColor ?? "#000000"
+                        
+                        VStack {
+                            ProjectTitleBarView(project: project)
+                            
+                            ProcessTitleView()
+                                .zIndex(2)
+                            
+                            ProcessTextCardView(
+                                text: project.processText,
+                                backgroundColor: Color(
+                                    hex: project.processStyle?.backgroundColor ?? "#F2F2F2"
+                                ),
+                                textColor: Color(
+                                    hex: project.processStyle?.textColor ?? "#000000"
+                                )
                             )
-                        )
-                        
-                        ProjectDemoSectionView(project: project)
-
-                        LearningGoalsTitleView(
-                                   titleColor: Color(
-                                       hex: project.learningGoalsStyle?.titleColor ?? "#000000"
-                                   )
-                               )
-
-                               LearningGoalsListView(
-                                   goals: project.learningGoals
-                               )
-
-                        RepositoryButtonView(repository: project.repository)
-
-                        
-                     
+                            
+                            ProjectDemoSectionView(project: project)
+                            
+                            LearningGoalsTitleView(
+                                titleColor: Color(
+                                    hex: project.learningGoalsStyle?.titleColor ?? "#000000"
+                                )
+                            )
+                            
+                            LearningGoalsListView(
+                                goals: project.learningGoals
+                            )
+                            
+                            RepositoryButtonView(repository: project.repository)
+                            
+                            
+                            
+                        }
+                        .padding(.bottom, -6)
                     }
-                    .padding(.bottom, 56)
-                    .background(Color.white)
+                    
                 }
-                
             }
                 
             }

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Villo Rebuild",
+        "coverImage": "cover-villo",
+        "processText": "I wanted to improve the Brussels Villo app, so I decided to fully remake it. I started by analyzing the existing UI and identifying what didn’t work well, then redesigned it to be clearer and more user-friendly. From there, I gradually expanded the project by adding features and focusing on making the app faster, simpler, and more intuitive for users.",
+        "processStyle": {
+              "backgroundColor": "#F2F2F2",
+              "textColor": "#000000"
+            },
+        "demoVideo": ""
+    },
+    {
+        "id": 2,
+        "title": "MoodTracker",
+        "coverImage": "cover-mood",
+        "processText": "Focused less on UX/UI this time, the main goal was learning how to work with user data. I started this project to explore widgets, system settings and preferences, but was limited as linking widgets to user data requires a paid setup.",
+        "processStyle": {
+             "backgroundColor": "#EAF1FF",
+             "textColor": "#000000"
+           },
+        "demoVideo": ""
+    },
+    {
+        "id": 3,
+        "title": "Portfolio App",
+        "coverImage": "cover-portfolio",
+        "processText": "For this portfolio project, I wanted to express my vibe and personality through something meaningful. I drew inspiration from a magazine I once created and tried to apply as many SwiftUI animation techniques as possible in this one-pager.",
+        "demoVideo": "",
+        "processStyle": {
+              "backgroundColor": "#FFF3E8",
+              "textColor": "#000000"
+            }
+        }
+]

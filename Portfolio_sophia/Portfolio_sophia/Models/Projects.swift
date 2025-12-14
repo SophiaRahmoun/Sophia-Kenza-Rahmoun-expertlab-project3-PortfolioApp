@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import Foundation
 
-struct Project: Identifiable {
+struct Project: Identifiable, Codable {
     let id: Int
     let title: String
     let coverImage: String
     let processText: String
     let demoVideo: String
+    let processStyle: ProcessStyle?
 }

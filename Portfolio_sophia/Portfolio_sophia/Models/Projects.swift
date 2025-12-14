@@ -15,4 +15,6 @@ struct Project: Identifiable, Codable {
     let processText: String
     let demoVideo: String
     let processStyle: ProcessStyle?
+    let learningGoals: [String]
+    let learningGoalsStyle: LearningGoalsStyle?
 }

@@ -75,6 +75,16 @@ struct PortfolioOnePagerView: View {
                         
                         ProjectDemoSectionView(project: project)
 
+                        LearningGoalsTitleView(
+                                   titleColor: Color(
+                                       hex: project.learningGoalsStyle?.titleColor ?? "#000000"
+                                   )
+                               )
+
+                               LearningGoalsListView(
+                                   goals: project.learningGoals
+                               )
+
                         
                         Text("Next section")
                             .foregroundColor(.black)

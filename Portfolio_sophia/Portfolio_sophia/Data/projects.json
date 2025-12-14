@@ -9,7 +9,16 @@
               "textColor": "#000000"
             },
         "demoVideo": "",
-
+        "learningGoals": [
+          "UX / UI redesign",
+          "MVVM architecture",
+          "Components",
+          "State management",
+          "API integration"
+        ],
+        "learningGoalsStyle": {
+          "titleColor": "#FFFFFF"
+        }
 
     },
     {
@@ -21,7 +30,16 @@
              "backgroundColor": "#EAF1FF",
              "textColor": "#000000"
            },
-        "demoVideo": ""
+        "demoVideo": "",
+        "learningGoals": [
+             "User input",
+             "Widgets",
+             "MVVM",
+             "Preferences & settings"
+           ],
+           "learningGoalsStyle": {
+             "titleColor": "#000000"
+           }
     },
     {
         "id": 3,
@@ -32,6 +50,14 @@
         "processStyle": {
               "backgroundColor": "#FFF3E8",
               "textColor": "#000000"
-            }
+            },
+        "learningGoals": [
+             "Animations",
+             "Reusable components",
+             "SwiftUI transitions"
+           ],
+           "learningGoalsStyle": {
+             "titleColor": "#000000"
+           }
         }
 ]

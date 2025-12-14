@@ -4,35 +4,40 @@
 //
 //  Created by admin on 12/12/2025.
 //
-
 import SwiftUI
 
 struct OutlinedText: View {
 
     let text: String
-    let font: UIFont
+    let strokeWidth: CGFloat
     let strokeColor: Color
-    let lineWidth: CGFloat
+    let font: Font
 
     var body: some View {
-        Canvas { context, size in
+        ZStack {
+            ZStack {
+                Text(text)
+                    .font(font)
+                    .offset(x:  strokeWidth, y:  0)
+                Text(text)
+                    .font(font)
+                    .offset(x: -strokeWidth, y:  0)
+                Text(text)
+                    .font(font)
+                    .offset(x:  0, y:  strokeWidth)
+                Text(text)
+                    .font(font)
+                    .offset(x:  0, y: -strokeWidth)
+            }
+            .foregroundColor(strokeColor)
 
-            let attributes: [NSAttributedString.Key: Any] = [
-                .font: font,
-                .strokeWidth: -lineWidth,
-                .strokeColor: UIColor(strokeColor),
-                .foregroundColor: UIColor.clear
-            ]
-
-            let nsAttributed = NSAttributedString(string: text, attributes: attributes)
-
-            let attributedString = AttributedString(nsAttributed)
-
-            context.draw(
-                Text(attributedString),
-                at: CGPoint(x: 0, y: font.pointSize)
-            )
+            // Fill transparent
+            Text(text)
+                .font(font)
+                .foregroundColor(.clear)
         }
-        .frame(height: font.pointSize * 1.4)
+        // 👇 padding DOIT être ici
+        .padding(strokeWidth * 2)
+        .accessibilityLabel(text)
     }
 }

@@ -13,11 +13,15 @@ struct ProcessTitleView: View {
     var body: some View {
         OutlinedText(
             text: "Process",
-            font: UIFont(name: "SubwayBerlinOT", size: 42)!,
-            strokeColor: .black,
-            lineWidth: 1.5
-        )
-        .frame(maxWidth: .infinity, alignment: .leading)
+            strokeWidth: 0.2,
+               strokeColor: .black,
+               font: .custom("SubwayBerlinOT", size: 65)
+       )
+        .frame(maxWidth: .infinity, alignment: .center)
         .padding(.horizontal, 24)
     }
+}
+
+#Preview {
+    PortfolioOnePagerView()
 }

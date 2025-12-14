@@ -25,7 +25,7 @@ struct ProjectCarouselView: View {
                 
                 
                 // Projet arrière gauche
-                ProjectCardPlaceholderView()
+                ProjectCardView(project: projects[index])
                     .opacity(CarouselTransition.opacity(for: rel))
                     .rotationEffect(CarouselTransition.rotation(for: rel))
                     .offset(x:  CarouselTransition.xOffset(for: rel, drag: dragX), y: CarouselTransition.yOffset(for: rel)
@@ -37,7 +37,7 @@ struct ProjectCarouselView: View {
             }
         }
         .frame(maxWidth: .infinity)
-        .padding(.vertical, 40)
+        .padding(.bottom, 8)
         .contentShape(Rectangle())
         .highPriorityGesture(dragGesture)
         .zIndex(999)

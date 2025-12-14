@@ -26,8 +26,8 @@ struct ProjectTitleBarView: View {
                 
                 .foregroundColor(.black)
         }
-        .padding(.horizontal, 24)
-        .padding(.vertical, 12)
+        .padding(.horizontal, 30)
+        .padding(.top, 23)
     }
 
     private var formattedIndex: String {

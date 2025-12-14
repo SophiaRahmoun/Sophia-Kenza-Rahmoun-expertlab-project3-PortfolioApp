@@ -15,7 +15,7 @@ struct ProcessTextCardView: View {
 
     var body: some View {
         Text(text)
-            .font(AppFont.body(16))
+            .font(AppFont.body(18))
             .foregroundColor(textColor)
             .multilineTextAlignment(.leading)
             .padding(20)
@@ -24,6 +24,6 @@ struct ProcessTextCardView: View {
                 RoundedRectangle(cornerRadius: 12)
                     .fill(backgroundColor)
             )
-            .padding(.horizontal, 24)
+            .padding(.horizontal, 35)
     }
 }

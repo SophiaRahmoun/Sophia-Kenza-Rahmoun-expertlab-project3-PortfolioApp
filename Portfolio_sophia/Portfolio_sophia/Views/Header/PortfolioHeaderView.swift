@@ -13,7 +13,7 @@ struct PortfolioHeaderView: View {
         VStack(spacing: 4) {
 
             Text("SoSo")
-                .font(AppFont.h1(170))
+                .font(AppFont.h1(230))
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity)
                 .foregroundColor(Color(hex: "#9F1C30"))

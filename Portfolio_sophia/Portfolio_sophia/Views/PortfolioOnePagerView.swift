@@ -30,7 +30,7 @@ struct PortfolioOnePagerView: View {
         ScrollView {
             VStack(spacing: 0) {
                 
-                VStack(spacing: 40) {
+                VStack(spacing: 15) {
                     
                     PortfolioHeaderView()
                     
@@ -38,11 +38,12 @@ struct PortfolioOnePagerView: View {
                                         selectedIndex: $selectedProjectIndex
                     )
                     .zIndex(1)
+                    .padding(.top, 65)
+
                     
                 }
-                .padding(.top, 32)
-                .padding(.bottom, 40)
                 .frame(maxWidth: .infinity)
+                .padding(.bottom, -220)
                 
                 
                 .overlay(alignment: .topTrailing) {
@@ -52,7 +53,7 @@ struct PortfolioOnePagerView: View {
                     )
                     .frame(width: 125)
                     .opacity(0.9)
-                    .offset(x: -2, y: 200)
+                    .offset(x: -1, y: 210)
                 }
                 
                 if let project = currentProject {
@@ -60,7 +61,8 @@ struct PortfolioOnePagerView: View {
                         ProjectTitleBarView(project: project)
                         
                         ProcessTitleView()
-                        
+                            .zIndex(2)
+
                         ProcessTextCardView(
                             text: project.processText,
                             backgroundColor: Color(
@@ -73,7 +75,7 @@ struct PortfolioOnePagerView: View {
                         
                         Text("Next section")
                             .foregroundColor(.black)
-                            .padding()
+                     
                     }
                     .background(Color.white)
                 }

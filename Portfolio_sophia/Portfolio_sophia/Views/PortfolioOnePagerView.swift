@@ -85,11 +85,12 @@ struct PortfolioOnePagerView: View {
                                    goals: project.learningGoals
                                )
 
+                        RepositoryButtonView(repository: project.repository)
+
                         
-                        Text("Next section")
-                            .foregroundColor(.black)
                      
                     }
+                    .padding(.bottom, 56)
                     .background(Color.white)
                 }
                 

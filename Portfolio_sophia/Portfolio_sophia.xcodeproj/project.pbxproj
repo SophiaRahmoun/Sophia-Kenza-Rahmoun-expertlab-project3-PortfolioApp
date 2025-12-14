@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8401CE2F2EEF3AAF00DD0A9D /* moodtrackerrecord.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 8401CE2A2EEF3AAF00DD0A9D /* moodtrackerrecord.MP4 */; };
+		8401CE342EEF3F3500DD0A9D /* villooriginalrecord.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 8401CE2C2EEF3AAF00DD0A9D /* villooriginalrecord.MP4 */; };
+		8401CE352EEF3F4000DD0A9D /* portfoliorecord.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 8401CE2B2EEF3AAF00DD0A9D /* portfoliorecord.MP4 */; };
+		8401CE362EEF3F4900DD0A9D /* villorecord.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 8401CE2D2EEF3AAF00DD0A9D /* villorecord.MP4 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8401CAB22EECA13300DD0A9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		8401CA9A2EECA13000DD0A9D /* Portfolio_sophia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio_sophia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401CAB12EECA13300DD0A9D /* Portfolio_sophiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portfolio_sophiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401CABB2EECA13400DD0A9D /* Portfolio_sophiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portfolio_sophiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8401CE2A2EEF3AAF00DD0A9D /* moodtrackerrecord.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moodtrackerrecord.MP4; sourceTree = "<group>"; };
+		8401CE2B2EEF3AAF00DD0A9D /* portfoliorecord.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = portfoliorecord.MP4; sourceTree = "<group>"; };
+		8401CE2C2EEF3AAF00DD0A9D /* villooriginalrecord.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = villooriginalrecord.MP4; sourceTree = "<group>"; };
+		8401CE2D2EEF3AAF00DD0A9D /* villorecord.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = villorecord.MP4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +99,10 @@
 		8401CA912EECA13000DD0A9D = {
 			isa = PBXGroup;
 			children = (
+				8401CE2A2EEF3AAF00DD0A9D /* moodtrackerrecord.MP4 */,
+				8401CE2B2EEF3AAF00DD0A9D /* portfoliorecord.MP4 */,
+				8401CE2C2EEF3AAF00DD0A9D /* villooriginalrecord.MP4 */,
+				8401CE2D2EEF3AAF00DD0A9D /* villorecord.MP4 */,
 				8401CA9C2EECA13000DD0A9D /* Portfolio_sophia */,
 				8401CAB42EECA13300DD0A9D /* Portfolio_sophiaTests */,
 				8401CABE2EECA13400DD0A9D /* Portfolio_sophiaUITests */,
@@ -225,6 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8401CE342EEF3F3500DD0A9D /* villooriginalrecord.MP4 in Resources */,
+				8401CE2F2EEF3AAF00DD0A9D /* moodtrackerrecord.MP4 in Resources */,
+				8401CE352EEF3F4000DD0A9D /* portfoliorecord.MP4 in Resources */,
+				8401CE362EEF3F4900DD0A9D /* villorecord.MP4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Portfolio_sophia/Preview Content\"";
+				DEVELOPMENT_TEAM = S3K4S43NMK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Portfolio_sophia/Info.plist;
@@ -304,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophia";
+				PRODUCT_BUNDLE_IDENTIFIER = be.sophia.portfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Portfolio_sophia/Preview Content\"";
+				DEVELOPMENT_TEAM = S3K4S43NMK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Portfolio_sophia/Info.plist;
@@ -334,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Portfolio-sophia";
+				PRODUCT_BUNDLE_IDENTIFIER = be.sophia.portfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

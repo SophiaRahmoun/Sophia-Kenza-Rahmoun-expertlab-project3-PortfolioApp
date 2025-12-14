@@ -7,19 +7,22 @@
 
 
 import Foundation
-
 enum ProjectLoader {
 
     static func load() -> [Project] {
-        guard
-            let url = Bundle.main.url(forResource: "projects", withExtension: "json"),
-            let data = try? Data(contentsOf: url),
-            let projects = try? JSONDecoder().decode([Project].self, from: data)
-        else {
-            print("Failed to loadjson !")
+        guard let url = Bundle.main.url(forResource: "projects", withExtension: "json") else {
+            print("❌ projects.json NOT found in bundle")
             return []
         }
 
-        return projects
+        do {
+            let data = try Data(contentsOf: url)
+            let projects = try JSONDecoder().decode([Project].self, from: data)
+            print(" Loaded \(projects.count) projects")
+            return projects
+        } catch {
+            print(" JSON decode error:", error)
+            return []
+        }
     }
 }

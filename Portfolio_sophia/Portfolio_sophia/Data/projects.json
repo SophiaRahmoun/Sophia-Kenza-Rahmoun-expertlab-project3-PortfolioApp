@@ -8,7 +8,8 @@
               "backgroundColor": "#F2F2F2",
               "textColor": "#000000"
             },
-        "demoVideo": "",
+        "demoVideos": ["villooriginalrecord",
+        "villorecord"],
         "learningGoals": [
           "UX / UI redesign",
           "MVVM architecture",
@@ -18,7 +19,12 @@
         ],
         "learningGoalsStyle": {
           "titleColor": "#FFFFFF"
-        }
+        },
+        "repository": {
+            "url": "https://github.com/SophiaRahmoun/Sophia-Kenza-Rahmoun-expertlab-project1-UIRebuild",
+            "backgroundColor": "#9F1C30",
+            "textColor": "#FFFFFF"
+          }
 
     },
     {
@@ -30,7 +36,9 @@
              "backgroundColor": "#EAF1FF",
              "textColor": "#000000"
            },
-        "demoVideo": "",
+        "demoVideos": [
+            "moodtrackerrecord"
+          ],
         "learningGoals": [
              "User input",
              "Widgets",
@@ -39,14 +47,21 @@
            ],
            "learningGoalsStyle": {
              "titleColor": "#000000"
-           }
+           },
+           "repository": {
+              "url": "https://github.com/SophiaRahmoun/Sophia-Kenza-Rahmoun-expertlab-project2-Moodtracker",
+              "backgroundColor": "#9F1C30",
+              "textColor": "#FFFFFF"
+            }
     },
     {
         "id": 3,
         "title": "Portfolio App",
         "coverImage": "portfolio",
         "processText": "For this portfolio project, I wanted to express my vibe and personality through something meaningful. I drew inspiration from a magazine I once created and tried to apply as many SwiftUI animation techniques as possible in this one-pager.",
-        "demoVideo": "",
+        "demoVideos": [
+            "portfoliorecord"
+          ],
         "processStyle": {
               "backgroundColor": "#FFF3E8",
               "textColor": "#000000"
@@ -58,6 +73,11 @@
            ],
            "learningGoalsStyle": {
              "titleColor": "#000000"
-           }
+           },
+           "repository": {
+               "url": "https://github.com/SophiaRahmoun/Sophia-Kenza-Rahmoun-expertlab-project3-PortfolioApp",
+               "backgroundColor": "#231F20",
+               "textColor": "#F6F7F5"
+             }
         }
 ]

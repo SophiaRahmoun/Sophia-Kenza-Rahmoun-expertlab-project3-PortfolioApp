@@ -13,8 +13,10 @@ struct Project: Identifiable, Codable {
     let title: String
     let coverImage: String
     let processText: String
-    let demoVideo: String
+    let demoVideos: [String]
     let processStyle: ProcessStyle?
     let learningGoals: [String]
     let learningGoalsStyle: LearningGoalsStyle?
+    let repository: RepositoryLink
+
 }

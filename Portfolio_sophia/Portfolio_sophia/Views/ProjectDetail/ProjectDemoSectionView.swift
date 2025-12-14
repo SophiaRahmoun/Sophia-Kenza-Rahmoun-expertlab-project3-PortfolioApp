@@ -24,12 +24,9 @@ struct ProjectDemoSectionView: View {
 
                 VStack(spacing: 24) {
 
-                    DemoVideoPlaceholderView()
-
-                    // Cas spécial VILLO (id == 1)
-                    if project.id == 1 {
-                        DemoVideoPlaceholderView()
-                    }
+                    ForEach(project.demoVideos, id: \.self) { video in
+                                          DemoVideoView(videoName: video)
+                                      }
                 }
                 .frame(maxWidth: .infinity)
             }

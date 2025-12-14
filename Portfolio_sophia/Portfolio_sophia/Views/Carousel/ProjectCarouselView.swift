@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ProjectCarouselView: View {
 
-    private let projects = Array(0..<3)
+    let projects: [Project]
+    @Binding var selectedIndex: Int
 
-    @State private var selectedIndex: Int = 0
     @State private var dragX: CGFloat = 0
     
     var body: some View {
         ZStack {
-            ForEach(projects, id: \.self) { index in
+            ForEach(projects.indices, id: \.self) { index in
                 let rel = CarouselTransition.relativeIndex(
                     for: index,
                     selected: selectedIndex,
@@ -30,8 +30,8 @@ struct ProjectCarouselView: View {
                     .rotationEffect(CarouselTransition.rotation(for: rel))
                     .offset(x:  CarouselTransition.xOffset(for: rel, drag: dragX), y: CarouselTransition.yOffset(for: rel)
                     )
-                    .scaleEffect(0.92)
-                    .zIndex(0)
+                    .scaleEffect(CarouselTransition.scale(for: rel))
+                    .zIndex(CarouselTransition.zIndex(for: rel))
                     .animation(.spring(response: 0.35, dampingFraction: 0.85), value: selectedIndex)
                     .animation(.spring(response: 0.35, dampingFraction: 0.85), value: dragX)
             }
@@ -44,7 +44,7 @@ struct ProjectCarouselView: View {
     }
                 
     private var dragGesture: some Gesture {
-           DragGesture(minimumDistance: 10, coordinateSpace: .local)
+           DragGesture()
                .onChanged { value in
                    dragX = max(-140, min(140, value.translation.width)) // limit the drag a bitt
                }
@@ -52,7 +52,7 @@ struct ProjectCarouselView: View {
                    let threshold: CGFloat = 70
                    let predicted = value.predictedEndTranslation.width
 
-                   withAnimation(.spring(response: 0.35, dampingFraction: 0.85)) {
+                   withAnimation {
                        if predicted <= -threshold {
                            goNext()
                        } else if predicted >= threshold {

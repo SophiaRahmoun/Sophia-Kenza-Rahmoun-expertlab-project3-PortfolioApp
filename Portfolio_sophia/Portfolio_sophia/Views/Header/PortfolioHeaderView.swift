@@ -10,11 +10,12 @@ import SwiftUI
 struct PortfolioHeaderView: View {
 
     var body: some View {
-        VStack(spacing: 8) {
+        VStack(spacing: 4) {
 
             Text("SoSo")
-                .font(AppFont.h1(172))
+                .font(AppFont.h1(170))
                 .multilineTextAlignment(.center)
+                .frame(maxWidth: .infinity)
                 .foregroundColor(Color(hex: "#9F1C30"))
 
 

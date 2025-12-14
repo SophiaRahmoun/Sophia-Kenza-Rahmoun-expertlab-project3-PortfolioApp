@@ -1,0 +1,23 @@
+let projects: [Project] = [
+    Project(
+        id: 1,
+        title: "Villo Rebuild",
+        coverImage: "cover-villo",
+        processText: "",
+        demoVideo: ""
+    ),
+    Project(
+        id: 2,
+        title: "MoodTracker",
+        coverImage: "cover-mood",
+        processText: "",
+        demoVideo: ""
+    ),
+    Project(
+        id: 3,
+        title: "Portfolio App",
+        coverImage: "cover-portfolio",
+        processText: "",
+        demoVideo: ""
+    )
+]

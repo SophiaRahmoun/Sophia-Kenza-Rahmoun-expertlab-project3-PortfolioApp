@@ -73,6 +73,9 @@ struct PortfolioOnePagerView: View {
                             )
                         )
                         
+                        ProjectDemoSectionView(project: project)
+
+                        
                         Text("Next section")
                             .foregroundColor(.black)
                      
